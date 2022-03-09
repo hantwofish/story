@@ -6,8 +6,8 @@ rem git reset HEAD *.exe *.png *jpg *.jpeg *.bmp *.bat
 git reset HEAD *.exe *jpg *.jpeg *.bmp *.docx
 rem git status
 
-set commm = date
 
-git commit -m commm
+
+git commit -m "20220211"
 git push origin main
 pause 
